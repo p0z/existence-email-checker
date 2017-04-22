@@ -50,7 +50,7 @@ def yandex_check():
 	payload = 'track_id='+track_id+'&login='+email
 	req = requests.post(check_url, data = payload, timeout = 3, stream = False, verify = False, headers = headers)
 	status = req.content
-	if 'Login is not available' in status:
+	if 'login.not_available' in status:
 		print mail_status.get('0'), 'Domain: yandex.ru'
 	else:
 		print mail_status.get('1'), 'Domain: yandex.ru'
