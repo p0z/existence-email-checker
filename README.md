@@ -19,3 +19,5 @@ Options:
 + Do not send too many requests.
 + You IP-address can be banned.
 
+**TODO:**
+- iCloud check
