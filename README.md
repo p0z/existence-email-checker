@@ -21,3 +21,7 @@ Options:
 
 **TODO:**
 - iCloud check
+
+**Requirements:**
+- python 2.7
+- BeautifulSoup 4
